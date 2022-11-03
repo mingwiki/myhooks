@@ -3,8 +3,6 @@
 ## useStore
 
 ```
-  import useStore from './store';
-  
   const store = { test: 123, abc: 'xyz' }
   const [state, setState] = useStore(store)
   
